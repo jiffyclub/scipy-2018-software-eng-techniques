@@ -52,6 +52,9 @@ This will create an environment called `scipy2018-swe`.
 
 ### Testing Your Setup
 
+You can test your Anaconda installation using
+[these instructions](https://conda.io/docs/user-guide/install/test-installation.html).
+
 In this tutorial you'll be running code at the command line,
 so please make sure you can run Python there.
 As an example, try running the following command at the command line:
