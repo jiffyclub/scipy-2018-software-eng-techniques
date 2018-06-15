@@ -36,6 +36,20 @@ If you'd like to do your own setup, we'll be using the following Python librarie
 - [pytest](https://docs.pytest.org/en/latest/)
 - [snakeviz](https://jiffyclub.github.io/snakeviz/)
 
+### Creating a conda environment (OPTIONAL)
+
+The basic Anaconda install has almost all that's needed for this tutorial,
+but if you'd like to create an isolated environment for this tutorial you
+can use the included `environment.yaml` file according to the
+[conda env setup instructions](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
+by running the following in the root of this repository:
+
+```sh
+conda env create -f environment.yaml
+```
+
+This will create an environment called `scipy2018-swe`.
+
 ### Testing Your Setup
 
 In this tutorial you'll be running code at the command line,
