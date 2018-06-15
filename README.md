@@ -19,6 +19,8 @@ See the tutorial description on the conference website
 
 ## Setup Instructions
 
+### Installation
+
 If you don't already have Anaconda installed, download and install Anaconda
 for **Python 3**:
 https://www.anaconda.com/download.
@@ -33,3 +35,25 @@ If you'd like to do your own setup, we'll be using the following Python librarie
 - [ipdb](https://pypi.org/project/ipdb/)
 - [pytest](https://docs.pytest.org/en/latest/)
 - [snakeviz](https://jiffyclub.github.io/snakeviz/)
+
+### Testing Your Setup
+
+In this tutorial you'll be running code at the command line,
+so please make sure you can run Python there.
+As an example, try running the following command at the command line:
+
+```sh
+python -c 'print("This works!")'
+```
+
+Or, on Windows, try the following:
+
+```sh
+py -c 'print("This works!")'
+```
+
+You will see `This works!` printed when it works.
+
+### Troubleshooting Links
+
+- Running Python on Windows: https://docs.python.org/3.6/using/windows.html
