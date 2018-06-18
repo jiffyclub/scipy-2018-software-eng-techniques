@@ -30,16 +30,16 @@ following (each may not work on all platforms):
 - [Atom](https://atom.io/)
 - [Notepad++](https://notepad-plus-plus.org/) (Windows Only)
 
-### Install Anaconda
+### Install Anaconda (REQUIRED)
+
+**Please do at least the download and install of Anaconda before coming to the tutorial!**
+**We can help with further setup at the tutorial.**
 
 If you don't already have Anaconda installed, download and install Anaconda
 for **Python 3**:
 https://www.anaconda.com/download.
 If you're prompted to install VS Code we recommend you **do** install it
 unless you already have a code editor you prefer (or you picked one above).
-
-Please do at least the download and install of Anaconda before coming to the tutorial!
-We can help with further setup at the tutorial.
 
 If you'd like to do your own setup, we'll be using the following Python libraries:
 
