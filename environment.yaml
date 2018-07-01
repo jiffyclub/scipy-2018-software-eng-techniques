@@ -3,7 +3,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - appnope=0.1.0=py36_0
   - atomicwrites=1.1.5=py36_0
   - attrs=18.1.0=py_1
   - backcall=0.1.0=py_0
@@ -37,7 +36,7 @@ dependencies:
   - ncurses=5.9=10
   - notebook=5.5.0=py36_0
   - openssl=1.0.2o=0
-  - pandoc=2.2.1=hde52d81_0
+  - pandoc=2.2.1=0
   - pandocfilters=1.4.2=py36_0
   - parso=0.2.1=py_0
   - pexpect=4.6.0=py36_0
@@ -53,7 +52,7 @@ dependencies:
   - python=3.6.5=1
   - python-dateutil=2.7.3=py_0
   - pyzmq=17.0.0=py36_4
-  - qt=5.6.2=h9e3eb04_4
+  - qt=5.6.2=7
   - qtconsole=4.3.1=py36_0
   - readline=7.0=0
   - send2trash=1.5.0=py_0
@@ -68,12 +67,14 @@ dependencies:
   - tornado=5.0.2=py36_0
   - traitlets=4.3.2=py36_0
   - wcwidth=0.1.7=py36_0
-  - webencodings=0.5.1=py36_0
+  - webencodings=0.5=py36_0
   - wheel=0.31.0=py36_0
   - widgetsnbextension=3.2.1=py36_0
   - xz=5.2.3=0
   - zeromq=4.2.5=1
   - zlib=1.2.11=h470a237_3
-  - snakeviz=0.4.2=py36h2529b96_0
+  - snakeviz=0.4.2=py36h8fadade_0
+  - pip:
+    - appnope==0.1.0
 prefix: /Users/mattdavis/miniconda3/envs/scipy2018-swe
 
