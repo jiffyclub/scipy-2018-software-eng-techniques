@@ -6,7 +6,7 @@ import os
 def load_file(filename):
     """
     Read dataset using filepath, and return data as a dictionary of lists.
-      - Example returned dataset: {'col1_name': [1, 2, 3]}
+      - Example returned dataset: [{'col1': 'data', 'col2': 'data2'}]
     """
     # Open dataset
     with open(filename) as file:
