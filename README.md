@@ -53,15 +53,13 @@ If you'd like to do your own setup, we'll be using the following Python librarie
 
 The basic Anaconda install has almost all that's needed for this tutorial,
 but if you'd like to create an isolated environment for this tutorial you
-can use the included `environment.yaml` file according to the
-[conda env setup instructions](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
-by running the following in the root of this repository:
+can:
 
-```sh
-conda env create -f environment.yaml
+Create a new environment using `conda`:
+
 ```
-
-This will create an environment called `scipy2018-swe`.
+conda create --name scipy2018-swe python=3.6 jupyter pytest snakeviz
+```
 
 ### Testing Your Setup
 
