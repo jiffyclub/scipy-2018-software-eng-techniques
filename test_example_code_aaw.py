@@ -23,8 +23,17 @@ def test_filter_by_inspection_type():
     assert all(row['inspection_type'] == 'Routine - Unscheduled' for row in filtered_data)
 
 
-def test_count_restaurants_by_risk_score():
+def test_filter_by_month():
+    """Test filter by specific month"""
+    data = eca.load_file('data/sf_restaurant_scores_subset.csv')
+    filtered_data = eca.filter_by_inspection_type(data)
+    month_data = eca.filter_by_month(filtered_data, '12', '2017')
 
+    assert len(month_data) == 3
+
+
+def test_count_restaurants_by_risk_score():
+    """Test that we aggregate risk scores properly"""
     data = eca.load_file('data/sf_restaurant_scores_subset.csv')
     filtered_data = eca.filter_by_inspection_type(data)
     aggregated_data = eca.count_restaurants_by_risk_score(filtered_data)
@@ -33,5 +42,20 @@ def test_count_restaurants_by_risk_score():
         'Low Risk': 2,
         'Moderate Risk': 2,
         'High Risk': 3,
+        'No Violations': 1,
+    }
+
+
+def test_calculate_risk_categories():
+    """Integration test"""
+    final_data = eca.calculate_risk_categories(
+        filename='data/sf_restaurant_scores_subset.csv',
+        input_month='12',
+        input_year='2017',
+    )
+
+    assert final_data == {
+        'High Risk': 1,
+        'Moderate Risk': 1,
         'No Violations': 1,
     }
