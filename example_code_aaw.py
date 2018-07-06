@@ -28,4 +28,15 @@ def filter_by_inspection_type(data):
 
 def count_restaurants_by_risk_score(data):
     """Count the number of restaurants per risk score by month"""
-    return data
+    risk_dict = {}
+
+    for row in data:
+        if row['risk_category'] not in risk_dict:
+            risk_dict[row['risk_category']] = 1
+        else:
+            risk_dict[row['risk_category']] += 1
+
+    if '' in risk_dict:
+        risk_dict['No Violations'] = risk_dict.pop('')
+
+    return risk_dict
