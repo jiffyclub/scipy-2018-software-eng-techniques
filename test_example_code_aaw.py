@@ -10,3 +10,11 @@ def test_load_file():
     assert len(data) == 10
     # Assert that for a given row, it has 17 datapoints.
     assert len(data[0]) == 17
+
+
+def test_filter_by_inspection_type():
+
+    data = eca.load_file('data/sf_restaurant_scores_subset.csv')
+    filtered_data = eca.filter_by_inspection_type(data)
+
+

@@ -14,3 +14,18 @@ def load_file(filename):
         data = list(reader)
     return data
 
+
+def filter_by_inspection_type(data):
+    """Filter on Routine Unscheduled data"""
+    routine_unscheduled_rows = []
+
+    for row in data:
+        if row['inspection_type'] == 'Routine - Unscheduled':
+            routine_unscheduled_rows.append(row)
+
+    return routine_unscheduled_rows
+
+
+def count_restaurants_by_risk_score(data):
+    """Count the number of restaurants per risk score by month"""
+    return data
