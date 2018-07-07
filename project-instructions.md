@@ -23,6 +23,6 @@ By the completion of this data project, we expect that you will be able to:
 We will be working with Restaurant/Food Inspection data provided by the City of San Francisco. (As
 a small side note, various cities in the USA provide interesting data sets!)
 
-In order to explore and gain insights around this dataset, we will build a series of Python
-functions that cleanse, aggregate and summarize this data. This includes, for example, aggregating
-the number of restaurants in a given risk category in a given month.
+To simulate an analysis task we’re going to write a command line utility where
+you input a data file and a month and the utility will print how many
+inspections resulted in which risk categories during that month.
