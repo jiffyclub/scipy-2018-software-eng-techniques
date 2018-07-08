@@ -1,0 +1,25 @@
+package:
+  name: scipy2018
+  version: '0.0.1'
+
+source:
+  path: ./src
+
+build:
+  noarch: python
+  entry_points:
+    - scipy2018-counter = scipy2018.cli:main
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - scipy2018
+
+
