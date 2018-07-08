@@ -53,13 +53,15 @@ If you'd like to do your own setup, we'll be using the following Python librarie
 
 The basic Anaconda install has almost all that's needed for this tutorial,
 but if you'd like to create an isolated environment for this tutorial you
-can:
+can use the included `environment.yaml` file according to the
+[conda env setup instructions](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
+by running the following in the root of this repository:
 
-Create a new environment using `conda`:
+```sh
+conda env create -f environment.yaml
+```
 
-```
-conda create --name scipy2018-swe python=3.6 jupyter pytest snakeviz
-```
+This will create an environment called `scipy2018-swe`.
 
 ### Testing Your Setup
 
@@ -85,3 +87,26 @@ You will see `This works!` printed when it works.
 ### Troubleshooting Links
 
 - Running Python on Windows: https://docs.python.org/3.6/using/windows.html
+
+## Useful Links
+
+- [Python Argparse Tutorial (standard library Command Line Interface module)](https://docs.python.org/3/howto/argparse.html)
+- [pdb - The Python Debugger](https://docs.python.org/3/library/pdb.html)
+- [pytest Documentation - a useful testing library](https://docs.pytest.org/en/latest/#documentation)
+- [Python Logging Tutorial](https://docs.python.org/3/howto/logging.html)
+
+## Related Documentation and References
+
+Below are some useful references to help you get more acquainted with Python and other
+programming fundamentals.
+
+- [Official Python (3) Documentation](https://docs.python.org/3/)
+  - [Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+    - [Formatting Inputs and Outputs like Strings, Files](https://docs.python.org/3/tutorial/inputoutput.html)
+  - [Built-in Functions](https://docs.python.org/3/library/functions.html)
+  - [Built-in Types](https://docs.python.org/3/library/stdtypes.html)
+- [Software Carpentry's Version Control With Git Lesson](http://swcarpentry.github.io/git-novice/)
+- [Software Carpentry's Programming in Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/)
+- [Software Carpentry's The Unix Shell Lesson](http://swcarpentry.github.io/shell-novice/)
+- [SciPy Lecture Notes - Commonly Used Packages](https://www.scipy-lectures.org/)
+- [How to Think Like a Computer Scientist Tutorial](http://interactivepython.org/runestone/static/thinkcspy/index.html)
