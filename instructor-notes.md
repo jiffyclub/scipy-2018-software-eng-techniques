@@ -2,13 +2,21 @@
 
 ## Introduction
 
-Notes
+* Deliberate program design
+* Testing
+* Debugging
+* Performance
+* Packaging
 
-## Steps
+## Part 1: Writing the Analysis Code
 
+* Design patterns for our code
+  * Restate our objective
+  * What functions are necessary to go from our raw dataset to what we want?
+  * Collaborative exercise to come up with a few design ideas
 * Exercise: Reading a file
   * Write code
-  * Return a dictionary of lists by column
+  * Return a list of dictionaries (one per row)
   * Tests to confirm that the code is working
 * Concept of testing
   * Systematic way to ensure your code is working as expected
@@ -16,9 +24,6 @@ Notes
   * `if` statements, `assert` statements
   * Pre-written test that can be used with a small sample dataset to verify code
   * Have students run pre-written test
-* Design patterns for our code
-  * Restate our objective
-  * What functions are necessary to go from our raw dataset to what we want?
 * Test-Driven Development
   * Given that we want to aggregate on test inspection data by `risk_category`,
     what tests would we need?
@@ -30,8 +35,16 @@ Notes
   * Aggregation code
 * Exercise: putting all the functions together
 * TBD: Include pdb
+
+## Part 2: CLI
+
 * Make the code into a command line script
+
+## Part 3: Performance
+
 * TBD: Performance profiling
   * snakeviz
   * pstats
+
+## Part 4: Packaging
 * Packaging
