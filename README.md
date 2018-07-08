@@ -92,7 +92,7 @@ You will see `This works!` printed when it works.
 
 - [Python Argparse Tutorial (standard library Command Line Interface module)](https://docs.python.org/3/howto/argparse.html)
 - [pdb - The Python Debugger](https://docs.python.org/3/library/pdb.html)
-- [pytest Documentation - a useful testing library](https://docs.pytest.org/en/latest/#documentation)
+- [pytest Documentation - a useful testing library](https://docs.pytest.org/en/latest/)
 - [Python Logging Tutorial](https://docs.python.org/3/howto/logging.html)
 
 ## Related Documentation and References
@@ -105,8 +105,9 @@ programming fundamentals.
     - [Formatting Inputs and Outputs like Strings, Files](https://docs.python.org/3/tutorial/inputoutput.html)
   - [Built-in Functions](https://docs.python.org/3/library/functions.html)
   - [Built-in Types](https://docs.python.org/3/library/stdtypes.html)
-- [Software Carpentry's Version Control With Git Lesson](http://swcarpentry.github.io/git-novice/)
-- [Software Carpentry's Programming in Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/)
-- [Software Carpentry's The Unix Shell Lesson](http://swcarpentry.github.io/shell-novice/)
+- [Software Carpentry](https://software-carpentry.org/)
+  - [Version Control With Git Lesson](http://swcarpentry.github.io/git-novice/)
+  - [Programming in Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/)
+  - [The Unix Shell Lesson](http://swcarpentry.github.io/shell-novice/)
 - [SciPy Lecture Notes - Commonly Used Packages](https://www.scipy-lectures.org/)
 - [How to Think Like a Computer Scientist Tutorial](http://interactivepython.org/runestone/static/thinkcspy/index.html)
