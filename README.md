@@ -90,6 +90,10 @@ You will see `This works!` printed when it works.
 - [pdb - The Python Debugger](https://docs.python.org/3/library/pdb.html)
 - [pytest Documentation - a useful testing library](https://docs.pytest.org/en/latest/)
 - [Python Logging Tutorial](https://docs.python.org/3/howto/logging.html)
+- Conda
+  - [conda build tutorials](https://conda.io/docs/user-guide/tutorials/index.html#)
+  - [metadatat specification](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html)
+- [setuptools tutorial](https://packaging.python.org/tutorials/packaging-projects/)
 
 ## Related Documentation and References
 
