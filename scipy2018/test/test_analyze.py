@@ -1,4 +1,5 @@
-import analyze
+from .. import analyze
+
 import pytest
 
 TEST_FILE = './data/sf_restaurant_scores_subset.csv'

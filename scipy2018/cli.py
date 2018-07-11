@@ -1,6 +1,6 @@
 import argparse
 
-import analyze
+from scipy2018 import analyze
 
 
 def parse_args(args=None):
